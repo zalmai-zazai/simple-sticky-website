@@ -1,0 +1,77 @@
+/* style to be applied for whole page */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header section style */
+header{
+    text-align: center;
+    
+}
+.header-title{
+    text-transform: uppercase;
+}
+
+ /* style to be applied for menu bar */
+.menu{
+    
+    width: 100%;
+    height: 70px;
+    background-color: rgb(33, 30, 30);
+    position: sticky;
+    top: 0px;
+}
+.menue-section{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+     
+    justify-content: center;
+    font-size: 15px;
+    color: aliceblue;
+    
+}
+.menue-section li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+    display: block;
+    margin: 10px;
+
+}
+.menue-section li{
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+    transition: background-color 100ms ease-in;
+}
+.menue-section li:hover{
+    background-color: orange;
+}
+
+ /* content section style */
+.content .parg{
+    font-stretch:;
+    padding: 5px;
+    background-color: rgb(238, 238, 233);
+}
+
+/* footer section style */
+footer .foot{
+    
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 12px;
+}
+.foot p{
+    padding-top: 6px;
+}
